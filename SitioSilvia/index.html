@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+      <div class="container-fluid content">
+        <!-- HEADER -->
+        <header class="container-fluid header">
+            <div class="container logocont">
+                <div class="logo">
+                    <a href="index.html">
+                        <h2>Amaflex</h2>
+                    </a>
+                </div>
+                <div class="contacto">
+                    <a href="contacto.html">
+                        <p>Contacto</p>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+              <nav class="">
+                <ul class="nav nav-pills justify-content-center">
+                  <li role="navigation"><a class="p-2" href="#">Monedas y Billetes</a></li>
+                  <li role="navigation"><a class="p-2" href="#">Carpetas</a></li>
+                  <li role="navigation"><a class="p-2" href="#">Porta Documentos</a></li>
+                  <li role="navigation"><a class="p-2" href="#">Sobras</a></li>
+                  <li role="navigation"><a class="p-2" href="#">Promocionales</a></li>
+                  <li role="navigation"><a class="p-2" href="#">Trabajos a Medida</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+        </header><!-- cierra Header -->
+
+        <div class="container-fluid separador"></div>
+
+        <div class="container-fluid">
+            <div class="callbacks_container">
+              <ul class="rslides" id="slider">
+                <li>
+                  <img src="img/1.jpg" alt="">
+                  <p class="caption">This is a caption</p>
+                </li>
+                <li>
+                  <img src="img/2.jpg" alt="">
+                  <p class="caption">This is another caption</p>
+                </li>
+                <li>
+                  <img src="img/3.jpg" alt="">
+                  <p class="caption">The third caption</p>
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid footer">
+          <div class="container text-center">
+            <span>&copy; Nombre - <time>2018</time></span>
+          </div>
+        </div>
+      </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.zoom.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/responsiveslides.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        <script>
+          $(document).ready(function(){
+
+                $("#slider").responsiveSlides({
+                  auto: true,
+                  pager: false,
+                  nav: true,
+                  speed: 500,
+                  namespace: "callbacks"
+                });
+
+
+            });
+        </script>
+
+    </body>
+</html>
