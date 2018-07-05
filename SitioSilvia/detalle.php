@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-        <link rel="stylesheet" href="css/monedas.css">
+        <link rel="stylesheet" href="css/detalle.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -24,7 +24,7 @@
             <div class="container-fluid logocont">
               <div class="logodiv">
                 <div class="logo">
-                    <a href="#content">
+                    <a href="index.php">
                         <p class="amaflex">Amaflex</p>
                     </a>
                 </div>
@@ -62,16 +62,16 @@
               <h5 class="titulogrilla">Material Rígido | Goma | Tapa de Cristal </h5>
               <div class="grilla">
                 <div class="item">
-                  <img class="rounded-circle" src="img/Carpeta (1).jpg" alt="">
+                  <img class="rounded-circle" src="img/Carpeta(1).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Carpeta (2).jpg" alt="">
+                  <img class="rounded-circle" src="img/Carpeta(2).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Carpeta (3).jpg" alt="">
+                  <img class="rounded-circle" src="img/Carpeta(3).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Carpeta (4).jpg" alt="">
+                  <img class="rounded-circle" src="img/Carpeta(4).jpg" alt="">
                 </div>
               </div>
             </div>
@@ -82,22 +82,22 @@
               <h5 class="titulogrilla">Credenciales | Documentos Vehículos</h5>
               <div class="grilla">
                 <div class="item">
-                  <img class="rounded-circle" src="img/Porta (1).jpg" alt="">
+                  <img class="rounded-circle" src="img/Porta(1).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Porta (2).jpg" alt="">
+                  <img class="rounded-circle" src="img/Porta(2).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Porta (3).jpg" alt="">
+                  <img class="rounded-circle" src="img/Porta(3).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Porta (4).jpg" alt="">
+                  <img class="rounded-circle" src="img/Porta(4).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Porta (5).jpg" alt="">
+                  <img class="rounded-circle" src="img/Porta(5).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Porta (6).jpg" alt="">
+                  <img class="rounded-circle" src="img/Porta(6).jpg" alt="">
                 </div>
               </div>
             </div>
@@ -108,31 +108,31 @@
               <h5 class="titulogrilla"></h5>
               <div class="grilla">
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (1).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(1).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (2).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(2).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (3).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(3).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (4).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(4).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (5).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(5).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (6).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(6).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (7).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(7).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (8).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(8).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Envases (9).jpg" alt="">
+                  <img class="rounded-circle" src="img/Envases(9).jpg" alt="">
                 </div>
               </div>
             </div>
@@ -143,31 +143,31 @@
               <h5 class="titulogrilla"></h5>
               <div class="grilla">
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (1).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(1).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (2).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(2).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (3).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(3).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (4).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(4).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (5).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(5).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (6).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(6).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (7).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(7).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (8).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(8).jpg" alt="">
                 </div>
                 <div class="item">
-                  <img class="rounded-circle" src="img/Promo (9).jpg" alt="">
+                  <img class="rounded-circle" src="img/Promo(9).jpg" alt="">
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@
                           } else {
 
                               // ALL GOOD! just show the success message!
-                              $('form').append('<div class="alert alert-success">' + data.message + '</div>');
+                              $('form').append('<div class="alert alert-success response">' + data.message + '</div>');
 
 
                           }

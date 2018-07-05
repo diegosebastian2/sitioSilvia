@@ -29,15 +29,34 @@ $data           = array();      // array to pass back data
 
         // if there are no errors process our form, then return a message
         //Email information
-        $to = "amaflexpvc@hotmail.com";
-        $subject = 'Nombre: '.$_POST['nombre'];
-        $msj = $_POST['consulta'];
 
-        $msj .= "\r\n"."Telefono = ".$_POST['telefono'];
-        $msj .= "\r\n"."Email = ".$_POST['mail'];
+        $req_email = strip_tags($_POST['mail']);
+        $nombre = strip_tags($_POST['nombre']);
+        $consulta = strip_tags($_POST['consulta']);
+        $telefono = is_null($_POST['telefono']) ? 'Sin telefono': strip_tags($_POST['telefono']);
+
+
+        $to = "amaflexpvc@hotmail.com";
+  //      $to = "diegosebastian2@gmail.com";
+        $subject = 'Consulta pagina amaflex de: '. $nombre;
+        $msj = "<p>".$consulta."</p>"."\r\n";
+        $msj .= "<table>";
+        $msj .= "<tr><td>Telefono</td><td>".$telefono."</td></tr>";
+        $msj .= "<tr><td>Email</td><td>".$req_email."</td></tr>";
+        $msj .= "<tr><td>Nombre</td><td>".$nombre."</td></tr>";
+        $msj .= "</table>";
+
+        $headers = "From: " . $req_email . "\r\n";
+        $headers .= "Reply-To: ". $req_email . "\r\n";
+        //$headers .= "CC: susan@example.com\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+
+
 
         //send email
-        mail($to, $subject, $msj);
+        mail($to, $subject, $msj, $headers);
         // DO ALL YOUR FORM PROCESSING HERE
         // THIS CAN BE WHATEVER YOU WANT TO DO (LOGIN, SAVE, UPDATE, WHATEVER)
 

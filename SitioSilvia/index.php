@@ -61,11 +61,11 @@
             <div class="callbacks_container">
               <ul class="rslides" id="slider">
                 <li>
-                  <img src="img/homepromo1.jpg" alt="">
+                  <img src="img/homepromo3.jpg" alt="">
                   <p class="caption">Materiales para publicidad y propaganda</p>
                 </li>
                 <li>
-                  <img src="img/homepromo2.jpg" alt="">
+                  <img src="img/homepromo5.jpg" alt="">
                   <p class="caption">Carpetas, Portadocumentos y más</p>
                 </li>
               </ul>
@@ -207,7 +207,7 @@
                             } else {
 
                                 // ALL GOOD! just show the success message!
-                                $('form').append('<div class="alert alert-success">' + data.message + '</div>');
+                                $('form').append('<div class="alert alert-success response">' + data.message + '</div>');
 
 
                             }
